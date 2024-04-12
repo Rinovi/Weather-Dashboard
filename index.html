@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/styles.css"> <!-- Link to your CSS file -->
+  <title>Weather App</title>
+</head>
+
+<body>
+ 
+    <header class="mb-4 bg-primary text-white py-3 w-100" class="display-4 text-center">Weather Dashboard
+    </header>
+  <div class="my-container">
+  
+
+  <!-- Container to display search history -->
+
+  <div class="row">
+    <div class="col-md-3">
+     <div><h1>Search for a City:</h1>
+  <input type="text" id="cityInput" placeholder="Enter city name">
+  <button id="submitBtn">Get Weather</button></div> 
+      <div id="historyContainer" class="list-group"></div>
+    </div>
+    <div id="dataContainer" class="col-md-9">
+      <!-- Forecast cards will be added dynamically here -->
+      <div id="today" class="row"></div>
+      <div id="5day" class="row"></div>
+    </div>
+  </div>
+ </div>
+
+  <script src="./assets/script.js"></script>
+</body>
+
+</html>

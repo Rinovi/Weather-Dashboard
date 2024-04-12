@@ -1,0 +1,23 @@
+.list-group-item:hover {
+    background-color: #f0f0f0;
+    /* Change the background color on hover */
+    cursor: pointer;
+    /* Change the cursor to a pointer on hover */
+}
+
+header {
+    text-align: center;
+    font-size: 30px;
+}
+
+.five-day-header {
+    width: 100%;
+}
+
+.card-margin {
+    margin: 50px 0px;
+}
+
+.my-container {
+    margin: 0px 50px;
+}
