@@ -11,8 +11,8 @@ After opening the website, the first step is to enter a city name, and press the
 ![weather dashboard#2](https://github.com/Rinovi/Weather-Dashboard/assets/160938078/048f7fff-17a4-454f-90e5-b3caf3db3557)
 
 ## Credits
-The following is a link to the API that was used for this project: https://openweathermap.org/forecast5
-Also, here is a link to the deployed project:
+* The following is a link to the API that was used for this project: https://openweathermap.org/forecast5
+* Also, here is a link to the deployed project: https://rinovi.github.io/Weather-Dashboard/
 
 
 
